@@ -6,3 +6,9 @@ body {
 .banner {
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 1080px) {
+    .banner {
+        width: 100%;
+    }
+}
