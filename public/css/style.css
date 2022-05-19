@@ -7,6 +7,13 @@ body {
     margin: 0 auto;
 }
 
+picture {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1080px) {
     .banner {
         width: 100%;
